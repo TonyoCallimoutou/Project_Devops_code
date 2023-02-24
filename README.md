@@ -1,9 +1,9 @@
 # Project Devops Code
 
-I thank Subhashis Suara et Avinash Kumar Tiu, for their work (https://github.com/subhashissuara/AnimeHeaven)
+I thank Subhashis Suara et Avinash Kumar Tiu, for their work on this anime video streaming website made with HTML, CSS, JavaScript, PHP, MySQL.
+(https://github.com/subhashissuara/AnimeHeaven).
 
-Because this project is here to illustrate the real project.
-The real project is to deploy a website (this one) on a Virtual Machine.
+This project is here to illustrate the real project and deploy a website (this one) on a Virtual Machine.
 You can check the repository here :
 https://github.com/TonyoCallimoutou/Project_Devops
 
