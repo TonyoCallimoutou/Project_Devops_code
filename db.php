@@ -1,32 +1,6 @@
 <?php
-class bd{
-
-    private $co;
-    private $host;
-    private $user;
-    private $passwd;
-    private $bdd;
-
-
-    function __construct()
-    {
-        $this->host = "localhost";
-        $this->user = "root";
-        $this->bdd = "animeheaven";
-        $this->passwd = "root";
-    }
-
-    public function getco(){
-        return $this->co;
-    }
-
-    public function connect(){
-        $this->co = mysqli_connect($this->host , $this->user , $this->passwd, $this->bdd,9906);
-    }
-
-    public function disconnect(){
-        mysqli_close($this->co);
-    } 
-
-}
+  $conn = mysqli_connect("192.168.96.2", "tonyo", "password", "animeheaven");
+  if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+  }
 ?>
