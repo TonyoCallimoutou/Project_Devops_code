@@ -1,6 +1,6 @@
 <?php
-  $conn = new mysqli("localhost", "root", "", "animeheaven");
-  if($conn -> connect_error) {
-      die("Connection failed: " . $conn -> connect_error);
-   }
+  $conn = mysqli_connect("192.168.96.2", "tonyo", "password", "animeheaven");
+  if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+  }
 ?>
